@@ -1,0 +1,28 @@
+$color-full-slider-bar: #a5f3eb;
+$color-slider-backround: #10d5c2;
+$color-discount-background: #feece7;
+$color-discount-text: #ff8c66;
+$color-cta-text: #bdccff;
+$color-pricing-component-background: #ffffff;
+$color-main-background: #fafbff;
+$color-empty-slider-bar: #eaeefb;
+$color-toggle-background: #cdd7ee;
+$color-text: #858fad;
+$color-text-cta-background: #293356;
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}
