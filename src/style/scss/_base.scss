@@ -10,6 +10,14 @@ $color-toggle-background: #cdd7ee;
 $color-text: #858fad;
 $color-text-cta-background: #293356;
 
+@mixin respond($breakpoint) {
+  @if $breakpoint == desktop {
+    @media (min-width: 540px) {
+      @content;
+    }
+  }
+}
+
 *,
 ::after,
 ::before {
