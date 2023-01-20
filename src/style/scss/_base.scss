@@ -33,4 +33,15 @@ html {
 
 body {
   font-family: "Manrope", sans-serif;
+  background-color: $color-main-background;
+}
+
+p {
+  color: $color-text;
+}
+
+.container {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  text-align: center;
 }
