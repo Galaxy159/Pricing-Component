@@ -15,7 +15,7 @@ export default function Main() {
           <p className="component__billing--monthly">Monthly Billing</p>
           <div className="component__billing--toggle"></div>
           <p className="component__billing--yearly">Yearly Billing</p>
-          <p className="component__billing--discount"></p>
+          <p className="component__billing--discount">-25%</p>
         </div>
         <div className="component__cta">
           <div className="component__features">
