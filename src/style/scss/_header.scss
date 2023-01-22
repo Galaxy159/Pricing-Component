@@ -4,6 +4,12 @@
   background: url("../images/pattern-circles.svg") no-repeat, #f1f5fe;
   background-position: right 50% top 5.7rem;
   border-radius: 0 0 0 19.15rem;
+
+  @include respond(desktop) {
+    padding: 10.4rem;
+    background-position: right 50% top 7rem;
+    height: 44.9rem;
+  }
   &__headline {
     color: $color-text-cta-background;
     font-size: 2rem;

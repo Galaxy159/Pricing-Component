@@ -32,6 +32,13 @@ p {
   background-position: right 50% top 5.7rem;
   border-radius: 0 0 0 19.15rem;
 }
+@media (min-width: 540px) {
+  .header {
+    padding: 10.4rem;
+    background-position: right 50% top 7rem;
+    height: 44.9rem;
+  }
+}
 .header__headline {
   color: #293356;
   font-size: 2rem;
@@ -72,6 +79,7 @@ p {
 @media (min-width: 540px) {
   .component {
     max-width: 54rem;
+    transform: translateY(-17rem);
   }
 }
 @media (min-width: 540px) {
