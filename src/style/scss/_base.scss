@@ -1,5 +1,5 @@
 $color-full-slider-bar: #a5f3eb;
-$color-slider-backround: #10d5c2;
+$color-slider-background: #10d5c2;
 $color-discount-background: #feece7;
 $color-discount-text: #ff8c66;
 $color-cta-text: #bdccff;
@@ -44,4 +44,8 @@ p {
   max-width: 37.5rem;
   margin: 0 auto;
   text-align: center;
+
+  @include respond(desktop) {
+    max-width: 100vw;
+  }
 }
