@@ -73,7 +73,7 @@ export default function Main() {
         <div className="component__billing">
           <p className="component__billing--monthly">Monthly Billing</p>
           <div className="component__billing--toggle">
-            <label className="switch" htmlFor="toggle">
+            <label htmlFor="toggle" className="switch">
               <input
                 id="toggle"
                 type="checkbox"
