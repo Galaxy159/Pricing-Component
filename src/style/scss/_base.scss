@@ -41,11 +41,9 @@ p {
 }
 
 .container {
-  max-width: 37.5rem;
   margin: 0 auto;
   text-align: center;
 
   @include respond(desktop) {
-    max-width: 100vw;
   }
 }

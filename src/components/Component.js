@@ -5,7 +5,7 @@ import useMediaQuery from "./useMediaQuery";
 export default function Main() {
   const [rangeValue, setRangeValue] = useState("2");
   const [isYearly, setIsYearly] = useState(false);
-  const isDesktop = useMediaQuery("(min-width: 620px)");
+  const isDesktop = useMediaQuery("(min-width: 540px)");
 
   function handleSliderChange(event) {
     setRangeValue(event.target.value);

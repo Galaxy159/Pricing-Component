@@ -21,16 +21,9 @@ p {
 }
 
 .container {
-  max-width: 37.5rem;
   margin: 0 auto;
   text-align: center;
 }
-@media (min-width: 540px) {
-  .container {
-    max-width: 100vw;
-  }
-}
-
 .header {
   height: 40rem;
   padding: 9rem 2.4rem;
@@ -103,6 +96,7 @@ p {
     line-height: 1.9rem;
     letter-spacing: 0.2rem;
     margin: 0;
+    justify-self: start;
   }
 }
 .component__data--price {
@@ -123,6 +117,7 @@ p {
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin: 0;
+    justify-self: end;
   }
 }
 .component__data--price span {
