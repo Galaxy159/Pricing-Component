@@ -45,16 +45,16 @@ export default function Main() {
 
   return (
     <>
-      <style>
-        {`.component__data--slider {background: linear-gradient(to right, #a4f3eb 0% ${
-          rangeValue * 25
-        }%, #ecf0fb 0% 100%);}`}
-      </style>
       <div className="component">
         <div className="component__data">
           <p className="component__data--views">{pageViews()} PAGEVIEWS</p>
 
           <input
+            style={{
+              background: `linear-gradient(to right, #a4f3eb 0% ${
+                rangeValue * 25
+              }%, #ecf0fb 0% 100%)`,
+            }}
             id="range"
             type="range"
             value={rangeValue}
