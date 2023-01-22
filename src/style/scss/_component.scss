@@ -9,7 +9,7 @@
 
   @include respond(desktop) {
     max-width: 54rem;
-    transform: translateY(-17rem);
+    transform: translateY(-18rem);
   }
   &__data {
     @include respond(desktop) {
