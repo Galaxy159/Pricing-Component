@@ -367,4 +367,8 @@ input:checked + .slider:before {
 .component__data--slider::-moz-range-thumb:active {
   cursor: url(../images/pointer-active.svg), auto;
   background-color: #24aea1;
+}
+
+.rangeLabel {
+  display: none;
 }/*# sourceMappingURL=App.css.map */

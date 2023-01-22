@@ -53,17 +53,17 @@ export default function Main() {
       <div className="component">
         <div className="component__data">
           <p className="component__data--views">{pageViews()} PAGEVIEWS</p>
-          <label htmlFor="range">
-            <input
-              id="range"
-              type="range"
-              value={rangeValue}
-              min="0"
-              max="4"
-              className="component__data--slider"
-              onChange={handleSliderChange}
-            />
-          </label>
+          <label className="rangeLabel" htmlFor="range"></label>
+          <input
+            id="range"
+            type="range"
+            value={rangeValue}
+            min="0"
+            max="4"
+            className="component__data--slider"
+            onChange={handleSliderChange}
+          />
+
           <p className="component__data--price">
             <span>${isYearly ? price() * 0.75 : price()}.00</span> /month
           </p>
