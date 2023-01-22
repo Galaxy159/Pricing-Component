@@ -53,7 +53,7 @@ export default function Main() {
       <div className="component">
         <div className="component__data">
           <p className="component__data--views">{pageViews()} PAGEVIEWS</p>
-          <label className="rangeLabel" htmlFor="range"></label>
+
           <input
             id="range"
             type="range"
