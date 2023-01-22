@@ -1,5 +1,5 @@
 import check from "../images/icon-check.svg";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import useMediaQuery from "./useMediaQuery";
 
 export default function Main() {
