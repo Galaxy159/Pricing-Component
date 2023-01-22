@@ -53,14 +53,17 @@ export default function Main() {
       <div className="component">
         <div className="component__data">
           <p className="component__data--views">{pageViews()} PAGEVIEWS</p>
-          <input
-            type="range"
-            value={rangeValue}
-            min="0"
-            max="4"
-            className="component__data--slider"
-            onChange={handleSliderChange}
-          />
+          <label htmlFor="range">
+            <input
+              id="range"
+              type="range"
+              value={rangeValue}
+              min="0"
+              max="4"
+              className="component__data--slider"
+              onChange={handleSliderChange}
+            />
+          </label>
           <p className="component__data--price">
             <span>${isYearly ? price() * 0.75 : price()}.00</span> /month
           </p>
@@ -68,8 +71,12 @@ export default function Main() {
         <div className="component__billing">
           <p className="component__billing--monthly">Monthly Billing</p>
           <div className="component__billing--toggle">
-            <label className="switch">
-              <input type="checkbox" onChange={handleToggleChange} />
+            <label className="switch" htmlFor="toggle">
+              <input
+                id="toggle"
+                type="checkbox"
+                onChange={handleToggleChange}
+              />
               <span className="slider round"></span>
             </label>
           </div>
